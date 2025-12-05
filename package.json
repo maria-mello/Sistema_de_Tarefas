@@ -1,0 +1,29 @@
+{
+  "name": "sistema_de_tarefas",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Sistema de Tarefas </h1>\r <h4> <p> &nbsp;&nbsp;&nbsp;&nbsp; O objetivo desta atividade é desenvolver as habilidades dos alunos em depuração e manutenção de código em um sistema web de lista de tarefas (To-Do List) simulado. </p>\r <p> &nbsp;&nbsp;&nbsp;&nbsp; Os estudantes devem atuar como mantenedores de código, examinando os arquivos HTML, CSS e JavaScript fornecidos para identificar e corrigir, no mínimo, 12 erros (estruturais, sintáticos e lógicos). </p>\r <p> &nbsp;&nbsp;&nbsp;&nbsp; A finalidade é garantir que a interface funcione corretamente, permitindo aos usuários adicionar tarefas à lista, validar entradas e apresentar uma interface simples e organizada, validando assim a sua capacidade de criar e manter aplicações web funcionais.</p></h4>",
+  "main": "script.js",
+"scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maria-mello/Sistema_de_Tarefas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maria-mello/Sistema_de_Tarefas/issues"
+  },
+  "homepage": "https://github.com/maria-mello/Sistema_de_Tarefas#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "pg": "^8.16.3"
+  }
+}
